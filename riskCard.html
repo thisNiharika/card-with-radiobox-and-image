@@ -1,0 +1,98 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+.riskCard input[type=radio]{
+transform:scale(1.5);
+}
+
+.riskCard .card{
+background: #b5b5b5
+}
+.riskCard .card-header{
+border-bottom: 0px;
+}
+.riskCard .form-check .form-check-label{
+font-size:20px;
+font-weight:500;
+}
+
+.riskCard .riskCardimg{
+    height: 30px;
+    width: auto !important;
+    padding: 0px;
+    margin: 0px 20px;
+}
+</style>
+</head>
+<body>
+<div class="riskCard" style="margin:50px 100px;">
+                <div class="row justify-content-around">
+                  <div class="card" style="width: 18rem;">
+				  <div class="card-header ">
+				   <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Accept
+                    </label>
+					 <img class="riskCardimg" src="assets/images/accept.png" />
+                  </div>
+				  </div>
+                    <div class="card-body">
+                      <p class="card-text">The business has identified the risk and renders it acceptable. Therefore, there will be no effort to reduce or mitigate it. The potential loss from the identified and accepted risk is considered bearable.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+				   <div class="card-header ">
+				   <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Mitigate
+                    </label>
+					 <img class="riskCardimg" src="assets/images/mitigate.png" />
+                  </div>
+				  </div>
+                    <div class="card-body">
+                       <p class="card-text">The business will prioritize, evaluate, and implement the appropriate risk reducing controls/countermeasures to manage and limit setbacks as much as possible.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-5 justify-content-around">
+                  <div class="card" style="width: 18rem;">
+				  <div class="card-header ">
+				   <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Reduce
+                    </label>
+					 <img class="riskCardimg" src="assets/images/reduce.png" />
+                  </div>
+				  </div>
+                    <div class="card-body">
+                      <p class="card-text">The business will prioritize, evaluate, and implement the appropriate controls/countermeasures to reduce the likelihood that the risk may occur.</p>
+                     
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+				    <div class="card-header ">
+				   <div class="form-check d-flex align-items-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Transfer
+                    </label>
+					 <img class="riskCardimg" src="assets/images/transfer.png" />
+                  </div>
+				  </div>
+                    <div class="card-body">
+                      
+                      <p class="card-text">The business plans to contractual shift the risk from one party to another.
+Once the user selects how they will respond to the risk the status should move to Review.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+</body>
+</html>
